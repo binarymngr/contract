@@ -1,0 +1,23 @@
+{
+  "exclude": "(^test)",
+  "linters": {
+    "chmod": {
+      "type": "chmod"
+    },
+    "json": {
+      "type": "json",
+      "include": "(\\.json$|^\\.arc)"
+    },
+    "merge-conflict": {
+      "type": "merge-conflict"
+    },
+    "php": {
+      "type": "php",
+      "include": "\\.php$"
+    },
+    "text": {
+      "type": "text",
+      "text.max-line-length": 200
+    }
+  }
+}
