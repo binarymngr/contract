@@ -1,14 +1,10 @@
 {
   "name": "binarymngr/contract",
-  "description": "binarymngr contract package containing interfaces etc. for pluggable components.",
+  "description": "Contract package containing interfaces etc. for pluggable binarymngr components.",
+  "homepage": "https://github.com/binarymngr/contract",
   "authors": [
-    {
-      "name": "Michel Käser",
-      "email": "mail@michelkaeser.ch",
-      "homepage": "http://michelkaeser.ch"
-    }
+    { "name": "Michel Käser", "email": "mail@michelkaeser.ch", "homepage": "http://michelkaeser.ch" }
   ],
-  "homepage": "https://phabricator.michelkaeser.ch/project/view/1/",
   "license": "MIT",
   "keywords": ["binarymngr", "contract"],
   "type": "library",
