@@ -64,4 +64,13 @@ interface BinaryVersionsGatherer
      * @return \BinaryMngr\Contract\Gatherers\BinaryVersionsGatherer $this
      */
     public function setBinary(array $binary);
+
+    /**
+     * Sets the meta information the binary provices.
+     *
+     * @param string $meta the meta information
+     *
+     * @return \BinaryMngr\Contract\Gatherers\BinaryVersionsGatherer $this
+     */
+    public function setMeta($meta);
 }
