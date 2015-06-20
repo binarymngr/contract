@@ -34,6 +34,13 @@ interface BinaryVersionsGatherer
     public function gather();
 
     /**
+     * Returns a description describing this gatherer.
+     *
+     * @return string
+     */
+    public function getDescription();
+
+    /**
      * Returns the latest version of all gathered binary versions.
      *
      * If no such version exists, null should be returned.
