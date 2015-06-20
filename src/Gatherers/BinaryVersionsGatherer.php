@@ -66,6 +66,8 @@ interface BinaryVersionsGatherer
     /**
      * Sets the binary for which versions should be gathered.
      *
+     * This method is called directly after construction.
+     *
      * @param array $binary an array describing the binary ($binary->toArray())
      *
      * @return \BinaryMngr\Contract\Gatherers\BinaryVersionsGatherer $this
@@ -73,7 +75,16 @@ interface BinaryVersionsGatherer
     public function setBinary(array $binary);
 
     /**
-     * Sets the meta information the binary provices.
+     * Sets the meta information the binary provides.
+     *
+     * This method is called directly after construction.
+     *
+     * The metas can be anything you request, as it is a simple textfield in the UI
+     * where the user can input anything he needs to.
+     * You could e.g. require INI style meta:
+     *   URL=http://...
+     *   NAME=...
+     * but there is no mechanism included to force such input, so you have to check/parse that yourself.
      *
      * @param string $meta the meta information
      *
