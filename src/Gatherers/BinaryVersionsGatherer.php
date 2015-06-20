@@ -59,6 +59,10 @@ interface BinaryVersionsGatherer
     /**
      * Returns all binary versions the last gather() call recognized.
      *
+     * The version arrays should include the key's defined in this interface
+     * (only KEY_IDENTIFIER is mandatory).
+     * The end-of-life date needs to have the format: yyyy-mm-dd
+     *
      * @return array all gathered binary versions
      */
     public function getVersions();
