@@ -3,7 +3,11 @@
   "description": "Contract package containing interfaces etc. for pluggable binarymngr components.",
   "homepage": "https://github.com/binarymngr/contract",
   "authors": [
-    { "name": "Michel Käser", "email": "mail@michelkaeser.ch", "homepage": "http://michelkaeser.ch" }
+    {
+      "name": "Michel Käser",
+      "email": "mail@michelkaeser.ch",
+      "homepage": "http://michelkaeser.ch"
+    }
   ],
   "license": "MIT",
   "keywords": ["binarymngr", "contract"],
